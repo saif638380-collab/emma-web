@@ -1,0 +1,6 @@
+{
+  "name": "Obscura — Exclusive Visual Archive & Essays",
+  "description": "An anonymous photo-first visual journal featuring exclusive unposted 35mm frames, field notes, and curated gear recommendations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
