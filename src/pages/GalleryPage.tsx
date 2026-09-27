@@ -2,6 +2,7 @@ import React from 'react';
 import { PHOTOS } from '../data/photos';
 import { Image } from '../components/Image';
 import { AdSlot } from '../components/AdSlot';
+import { NativeAd } from '../components/NativeAd';
 import { SeoHead } from '../components/SeoHead';
 import { useRouter } from '../context/RouterContext';
 import { BookOpen } from 'lucide-react';
@@ -99,12 +100,7 @@ export const GalleryPage: React.FC = () => {
                 {/* Native Ad Block after 6th image */}
                 {showAdAfter && (
                   <div className="col-span-full py-4">
-                    <AdSlot
-                      id="ad-slot-gallery-native"
-                      format="native"
-                      className="!my-2"
-                      minHeight="120px"
-                    />
+                    <NativeAd />
                   </div>
                 )}
               </React.Fragment>

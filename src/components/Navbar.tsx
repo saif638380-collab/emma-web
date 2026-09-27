@@ -49,7 +49,7 @@ export const Navbar: React.FC = () => {
         <div className="flex items-center gap-2 sm:gap-3">
           <Link
             href="/articles/50-romance-ebooks-audiobooks"
-            className="inline-flex items-center gap-1.5 px-3 sm:px-3.5 py-1.5 rounded-full text-xs font-semibold bg-rose-600 hover:bg-rose-500 text-white transition-all shadow-xs hover:shadow-rose-600/30 whitespace-nowrap"
+            className="inline-flex items-center gap-2 px-4 sm:px-5 py-2 rounded-lg text-sm font-bold bg-blue-600 hover:bg-blue-500 text-white transition-all shadow-md hover:shadow-blue-600/30 whitespace-nowrap"
             title="Emma's Special Romance Collection"
           >
             <Heart className="w-3.5 h-3.5 fill-current" />
@@ -74,7 +74,7 @@ export const Navbar: React.FC = () => {
             <Link
               href="/articles/50-romance-ebooks-audiobooks"
               onClick={() => setMobileMenuOpen(false)}
-              className="inline-flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl text-sm font-semibold bg-rose-600 text-white shadow-xs"
+              className="inline-flex items-center justify-center gap-2 py-3 px-5 rounded-lg text-base font-bold bg-blue-600 hover:bg-blue-500 text-white shadow-md transition-colors"
             >
               <Heart className="w-4 h-4 fill-current" />
               <span>Special Romance Collection</span>

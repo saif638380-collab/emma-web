@@ -4,6 +4,7 @@ import { PRODUCTS } from '../data/products';
 import { Image } from '../components/Image';
 import { AdSlot } from '../components/AdSlot';
 import { SeoHead } from '../components/SeoHead';
+import { SmartlinkButton } from '../components/SmartlinkButton';
 import { Link, useRouter } from '../context/RouterContext';
 import { ArrowRight, ChevronLeft, ChevronRight, ExternalLink, BookOpen } from 'lucide-react';
 
@@ -93,6 +94,10 @@ export const HomePage: React.FC = () => {
                     <BookOpen className="w-3.5 h-3.5" />
                   </div>
                 </div>
+              </div>
+
+              <div className="mt-4 mb-2">
+                <SmartlinkButton />
               </div>
 
               {/* Ad Slot directly after THIS photo */}

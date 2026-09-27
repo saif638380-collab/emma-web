@@ -16,6 +16,7 @@ import { RecommendsPage } from './pages/RecommendsPage';
 import { ContactPage } from './pages/ContactPage';
 import { PhotoDetailPage } from './pages/PhotoDetailPage';
 import { MessageEmmaSection } from './components/MessageEmmaSection';
+import { GlobalAds } from './components/GlobalAds';
 
 const AppContent: React.FC = () => {
   const { path } = useRouter();
@@ -65,6 +66,7 @@ const AppContent: React.FC = () => {
 
   return (
     <div className="flex flex-col min-h-screen bg-white text-stone-900">
+      <GlobalAds />
       <Navbar />
       <main className="flex-1">
         {renderCurrentPage()}

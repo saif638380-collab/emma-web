@@ -5,6 +5,7 @@ import { Image } from '../components/Image';
 import { MdxContent } from '../components/MdxContent';
 import { SeoHead } from '../components/SeoHead';
 import { AdSlot } from '../components/AdSlot';
+import { SmartlinkButton } from '../components/SmartlinkButton';
 import { ArrowLeft, ArrowRight, BookOpen, Heart } from 'lucide-react';
 import { ASSETS } from '../data/assets';
 
@@ -147,6 +148,10 @@ export const SingleArticlePage: React.FC = () => {
       {/* Article Content with Embedded AdSlots */}
       <div className="max-w-3xl mx-auto px-4 sm:px-6 pt-6">
         <MdxContent content={article.content} />
+        
+        <div className="mt-8 mb-4">
+          <SmartlinkButton className="!py-4 !text-base shadow-xl" />
+        </div>
       </div>
 
       {/* Emma's Exclusive Hot Story Recommendation - Entire card clickable */}

@@ -1,8 +1,8 @@
 // Asset imports for typed, optimized bundling
 // Emma's uploaded photos from "photo for webstie emma"
-import emma01 from '../assets/images/emma/01febc94084185f4f0f6632574f66a49.jpg';
-import emma02 from '../assets/images/emma/1534871c17f4db104633ff6cffd097ad.jpg';
-import emma03 from '../assets/images/emma/4ac6fe6954765fe44cbec372f299d019.jpg';
+import emma01 from '../assets/images/emma/media_1790530553265.png';
+import emma02 from '../assets/images/emma/media_1790530596663.png';
+import emma03 from '../assets/images/emma/media_1790530696835.png';
 import emma04 from '../assets/images/emma/5c351cf9577b995bc9d922065c8cd342.jpg';
 import emma05 from '../assets/images/emma/6e5079c3f0e7824fd1472ca2f2f49695.jpg';
 import emma06 from '../assets/images/emma/7136fc51950c9995b8cdb073e833d524.jpg';

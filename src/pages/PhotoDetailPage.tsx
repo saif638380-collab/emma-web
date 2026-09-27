@@ -7,6 +7,7 @@ import { AdSlot } from '../components/AdSlot';
 import { MdxContent } from '../components/MdxContent';
 import { SeoHead } from '../components/SeoHead';
 import { Lightbox } from '../components/Lightbox';
+import { SmartlinkButton } from '../components/SmartlinkButton';
 import { ChevronRight } from 'lucide-react';
 
 export const PhotoDetailPage: React.FC = () => {
@@ -59,6 +60,10 @@ export const PhotoDetailPage: React.FC = () => {
               </h1>
             </div>
           </div>
+        </div>
+        
+        <div className="mt-5">
+          <SmartlinkButton className="!py-4 !text-base" />
         </div>
       </div>
 
